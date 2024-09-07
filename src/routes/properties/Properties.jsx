@@ -10,7 +10,7 @@ const Properties = () => {
     <>
       <Head
         title="Properties"
-        description="Properties - Moderne - Real-Estate"
+        description="Properties - SGD Developers - Real-Estate"
       />
 
       <Layout isHeaderLight={false}>

@@ -1,7 +1,7 @@
 import { useQuery } from 'react-query';
 
 async function fetchPropertiesImages() {
-  const response = await fetch('https://modern-realestate-api.onrender.com/api/properties/images');
+  const response = await fetch('https://SGD Developers-realestate-api.onrender.com/api/properties/images');
   return response.json();
 }
 

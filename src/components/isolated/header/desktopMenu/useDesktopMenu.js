@@ -8,11 +8,11 @@ export const useDesktopMenu = () => {
   const propertiesLinkControls = useAnimation();
 
   const propertiesLinks = [
-    { content: "Moderne I", id: 1 },
-    { content: "Moderne II", id: 2 },
-    { content: "Moderne III", id: 3 },
-    { content: "Moderne IV", id: 4 },
-    { content: "Moderne V", id: 5 },
+    { content: "SGD Developers I", id: 1 },
+    { content: "SGD Developers II", id: 2 },
+    { content: "SGD Developers III", id: 3 },
+    { content: "SGD Developers IV", id: 4 },
+    { content: "SGD Developers V", id: 5 },
   ];
 
   // Animations

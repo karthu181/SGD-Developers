@@ -60,7 +60,7 @@ const Hero = () => {
         </motion.div>
       </StyledContent>
 
-      <Slider />
+      {/* <Slider /> */}
     </StyledBgImgWrapper>
   );
 };

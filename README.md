@@ -1,7 +1,7 @@
 <p align="center">
-  <h1 align="center">Moderne Real Estate</h1>
+  <h1 align="center">SGD Developers Real Estate</h1>
   <p align="center">
-   Moderne a Real Estate web application with user-friendly interface.
+   SGD Developers a Real Estate web application with user-friendly interface.
   </p>
 </p>
 
@@ -29,7 +29,7 @@
 
 ## About The Project
 
-Moderne is a platform for users to buy, sell, or rent properties with the help of experienced real estate agents. The website utilizes HTML, CSS, JavaScript, React.js, Node.js, Express.js to create a user-friendly interface with comprehensive property listings and other services to help users make informed decisions about real estate.
+SGD Developers is a platform for users to buy, sell, or rent properties with the help of experienced real estate agents. The website utilizes HTML, CSS, JavaScript, React.js, Node.js, Express.js to create a user-friendly interface with comprehensive property listings and other services to help users make informed decisions about real estate.
 
 ### Built With
 - [Vite.js](https://vitejs.dev/)
@@ -61,7 +61,7 @@ npm install npm@latest -g
 1. Clone the repository locally with the git command:
 
    ```sh
-   git clone https://github.com/berkbeleli/Modern-RealEstate-Client.git
+   git clone https://github.com/berkbeleli/SGD Developers-RealEstate-Client.git
    ```
 
 2. Install NPM packages:
@@ -79,22 +79,22 @@ npm install npm@latest -g
 
 ## License
 
-Moderne is released under the MIT License. Please refer to the `LICENSE` file for more details.
+SGD Developers is released under the MIT License. Please refer to the `LICENSE` file for more details.
 
 
 ## Links
 
-Project Repository: [moderne](https://github.com/nightFuryman/Modern-RealEstate-Client)
+Project Repository: [SGD Developers](https://github.com/nightFuryman/SGD Developers-RealEstate-Client)
 
 Portfolio: [developer-portfolio](https://portfolio-25c95.web.app/)
 
   
 ## ScreenShots
 
-  <a href="https://github.com/berkbeleli/Modern-RealEstate-Client">
-    <img src="https://user-images.githubusercontent.com/44535117/235322727-614daabd-c054-48b8-a3d8-b6ff651588e2.png" alt="moderne-screenshot">
-    <img src="https://user-images.githubusercontent.com/44535117/235322743-03b69d58-4621-4f85-bb4b-0e92d1dde8d4.png" alt="moderne-screenshot">
-    <img src="https://user-images.githubusercontent.com/44535117/235322739-c783cd7f-7f8d-4c2a-957a-02da579668e9.png" alt="moderne-screenshot">
-   <img src="https://user-images.githubusercontent.com/44535117/235322716-ded20f3a-6541-4488-b006-71161aa0ed15.png" alt="moderne-screenshot">
-   <img src="https://user-images.githubusercontent.com/44535117/235322748-5a966b2d-a129-46d6-86ad-062e04069c49.png" alt="moderne-screenshot">
+  <a href="https://github.com/berkbeleli/SGD Developers-RealEstate-Client">
+    <img src="https://user-images.githubusercontent.com/44535117/235322727-614daabd-c054-48b8-a3d8-b6ff651588e2.png" alt="SGD Developers-screenshot">
+    <img src="https://user-images.githubusercontent.com/44535117/235322743-03b69d58-4621-4f85-bb4b-0e92d1dde8d4.png" alt="SGD Developers-screenshot">
+    <img src="https://user-images.githubusercontent.com/44535117/235322739-c783cd7f-7f8d-4c2a-957a-02da579668e9.png" alt="SGD Developers-screenshot">
+   <img src="https://user-images.githubusercontent.com/44535117/235322716-ded20f3a-6541-4488-b006-71161aa0ed15.png" alt="SGD Developers-screenshot">
+   <img src="https://user-images.githubusercontent.com/44535117/235322748-5a966b2d-a129-46d6-86ad-062e04069c49.png" alt="SGD Developers-screenshot">
   </a>

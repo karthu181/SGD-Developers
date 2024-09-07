@@ -1,5 +1,5 @@
 {
-  "name": "modern-realestate",
+  "name": "SGD Developers-realestate",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^6.0.2",
     "framer-motion": "^5.5.5",
     "framer-motion-hooks": "^1.0.10",
     "leaflet": "^1.7.1",
@@ -18,6 +23,7 @@
     "react-content-loader": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^1.2.2",
+    "react-hook-form": "^7.53.0",
     "react-icons": "^4.3.1",
     "react-is": "^18.2.0",
     "react-leaflet": "^3.2.2",

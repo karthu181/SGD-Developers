@@ -20,6 +20,7 @@ const Slider = () => {
   const [currentImg, setCurrentImg] = useState(0);
   const [currentPath, setCurrentPath] = useState(1);
   const { isLoading, propertiesImages } = usePropertiesImages();
+  console.log(propertiesImages)
   const { isEntranceActive } = useEntranceContext();
   const arrowControls = useAnimation();
   const dots = [0, 1, 2, 3, 4];
@@ -95,8 +96,8 @@ const Slider = () => {
                 initial={{ opacity: 0 }}
                 exit={{ opacity: 0, transition: { duration: 0.4 } }}
                 animate={{ opacity: 1, transition: { duration: 0.5 } }}
-                key={propertiesImages[currentImg].id}
-                src={propertiesImages[currentImg].img}
+                key={propertiesImages[currentImg]?.id}
+                src={propertiesImages[currentImg]?.img}
                 alt='property'
               />
             </AnimatePresence>

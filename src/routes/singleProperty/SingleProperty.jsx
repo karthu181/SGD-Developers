@@ -11,7 +11,7 @@ const SingleProperty = () => {
 
   return (
     <>
-      <Head title="Properties" description={`Property - Moderne ${id}`} />
+      <Head title="Properties" description={`Property - SGD Developers ${id}`} />
 
       <Layout isHeaderLight={false}>
         <main className="flow-spacing spacing-top">

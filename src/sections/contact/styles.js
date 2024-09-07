@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { fluidValues, respondTo } from "../../../styles/helpers";
+import { fluidValues, respondTo } from "../../styles/helpers";
 
 const StyledWrapper = styled(motion.div)`
   display: grid;
@@ -26,4 +26,8 @@ const StyledImg = styled.img`
   width: 100%;
 `;
 
-export { StyledWrapper, StyledParragraph, StyledSubText, StyledImg };
+const StyledLabel = styled.label`
+  text-align: left;
+`;
+
+export { StyledWrapper, StyledParragraph, StyledSubText, StyledImg, StyledLabel };

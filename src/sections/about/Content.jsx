@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { StyledH1 } from "../../../styles/reusable/typography";
-import { useEntranceContext } from "../../../context/entranceContext";
-import aboutMainImg from "../../../assets/images/about-main.jpg";
+import { StyledH1 } from "../../styles/reusable/typography";
+import { useEntranceContext } from "../../context/entranceContext";
+import aboutMainImg from "../../assets/images/about-main.jpg";
 import {
   StyledWrapper,
   StyledParragraph,
@@ -37,7 +37,7 @@ const Content = () => {
               animate={() => contentAnimations.to(isEntranceActive ? 4.8 : 0.6)}
               className="sub-title"
             >
-              How Moderne born
+              How SGD Developers born
             </StyledSubText>
           </motion.div>
 

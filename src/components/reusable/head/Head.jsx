@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 const Head = ({ title, description }) => {
   return (
     <Helmet>
-      <title>Moderne | {title}</title>
+      <title>SGD Developers | {title}</title>
       <meta name="description" content={description} />
     </Helmet>
   );

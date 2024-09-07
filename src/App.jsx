@@ -9,6 +9,7 @@ import SingleProperty from "./routes/singleProperty/SingleProperty";
 import NotFound from "./routes/404/NotFound";
 import GlobalStyles from "./styles/globalStyles";
 import ScrollToTop from "./components/isolated/scrollToTop/ScrollToTop";
+import Contact from "./routes/contact/Contact";
 
 function App() {
   // Get scrollbarWidth of current browser
@@ -34,6 +35,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/properties" element={<Properties />} />
             <Route path="/properties/:id" element={<SingleProperty />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AnimatePresence>

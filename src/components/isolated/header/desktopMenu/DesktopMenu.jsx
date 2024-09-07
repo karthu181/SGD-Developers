@@ -119,7 +119,7 @@ const DesktopMenu = ({ setIsMenuOpen }) => {
                   strokeWidth="1.5"
                 >
                   <tspan x="-3" y="63.8">
-                    About Moderne
+                    About SGD Developers
                   </tspan>
                 </motion.text>
               </svg>
@@ -180,7 +180,7 @@ const DesktopMenu = ({ setIsMenuOpen }) => {
         </div>
 
         <p className="text-white">
-          &copy; {new Date().getFullYear()} Moderne Real-Estate
+          &copy; {new Date().getFullYear()} SGD Developers Real-Estate
         </p>
       </StyledProperties>
 

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import HamburgerIcon from "./hamburgerIcon/HamburgerIcon";
 import MobileMenu from "./mobileMenu/MobileMenu";
@@ -30,6 +30,8 @@ const Header = ({ light }) => {
     toFooter,
   } = useHeader(light);
 
+  const navigate = useNavigate();
+
   return (
     <StyledHeader
       ref={headerRef}
@@ -51,7 +53,7 @@ const Header = ({ light }) => {
         </div>
 
         <div className="pathname moveElementForward-10">
-          <svg
+          {/* <svg
             width="15"
             height="45"
             viewBox="0 0 15 48"
@@ -65,7 +67,7 @@ const Header = ({ light }) => {
               y2="0.648381"
               stroke={isTextWhite ? "var(--clr-light)" : "var(--clr-dark)"}
             />
-          </svg>
+          </svg> */}
           <p className={`${isTextWhite ? "text-white" : "text-dark"}`}>
             {renderPathName}
           </p>
@@ -107,7 +109,7 @@ const Header = ({ light }) => {
           className={`moveElementForward-10 header-link contact-link ${
             isTextWhite ? "text-white" : "text-dark"
           }`}
-          onClick={toFooter}
+          onClick={()=>navigate("/contact")}
         >
           Contact
         </StyledScrollButton>

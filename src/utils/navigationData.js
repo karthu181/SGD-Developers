@@ -3,7 +3,7 @@ import propertiesImg from "../assets/images/properties.png";
 import homeImg from "../assets/images/home.jpeg";
 
 const aboutBox = {
-  title: "About Moderne",
+  title: "About SGD Developers",
   text: "About us",
   imgSrc: aboutImg,
   pathTo: "/about",

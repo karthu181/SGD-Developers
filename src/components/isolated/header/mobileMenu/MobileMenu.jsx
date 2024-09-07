@@ -41,7 +41,7 @@ const MobileMenu = () => {
             }
             to="/about"
           >
-            About Moderne
+            About SGD Developers
           </NavLink>
         </StyledLi>
 
