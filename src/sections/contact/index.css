@@ -51,7 +51,31 @@
     color: white;
     scale: 0.8;
   }
+  .contact-form{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    gap:1rem;
+  }
   
+  @media screen and (max-width: 768px) {
+    .contact-form{
+      width:100%;
+    }
+    
+  }
+
+  .contact-submit{
+    display:flex; 
+    justify-content:left;
+  }
+
+  @media screen and (max-width: 768px) {
+    .contact-submit{
+      justify-content:center;
+    }
+    
+  }
   @media (max-width: 1024px) {
     .c-container {
       flex-direction: column;

@@ -35,9 +35,9 @@ const Content = () => {
       );
   };
   return (
-    <section className="flow-spacing">
+    <section className="flow-spacing" style={{paddingTop:"1rem"}}>
       <StyledWrapper className="wrapper flow-spacing-content">
-      <form ref={form} onSubmit={sendEmail} style={{display:"flex", flexDirection:"column",width:"50%", gap:"1rem"}}>
+      <form ref={form} onSubmit={sendEmail} className="contact-form">
       <StyledLabel>
         Name
       <StyledInput type="text" name="user_name" required/>
@@ -57,7 +57,7 @@ const Content = () => {
         Message
         <StyledTextArea name="message"/>
       </StyledLabel>
-      <div style={{display:'flex', justifyContent:"left"}}>
+      <div className="contact-submit">
       <StyledInput type="submit" value="Send" style={{textAlign:"center", cursor:"pointer", background:"var(--clr-blue)", color:"white", width:"auto",
         padding:"0rem 2rem"
       }}/>
