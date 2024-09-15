@@ -15,22 +15,24 @@ const Footer = ({ spacing }) => {
         <StyledContent gridArea="title">
           <Logo type="dark" />
           <p className="max-width-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit eu
-            nunc, sagittis scelerisque lacus risus sed gravida.
+            We are a team of professionals who are dedicated to providing the best
+            real estate services to our clients. We are committed to helping you
+            find the best property that suits your needs.
           </p>
         </StyledContent>
 
         <StyledContent gridArea="schedule">
           <StyledH3 regular>Working Hours</StyledH3>
           <div>
-            <p>Mon-Fri 8:00a.m - 17:00p.m</p>
-            <p>Meetings only by appointment.</p>
+            {/* <p>Mon-Fri 8:00a.m - 17:00p.m</p>
+            <p>Meetings only by appointment.</p> */}
+            <p>24 Hours</p>
           </div>
         </StyledContent>
 
         <StyledContent gridArea="direction">
           <StyledH3 regular>Direction</StyledH3>
-          <p>807 St Margarets Dr.Bronx, NY 10468</p>
+          <p>Plot No.:233, Sripuram Colony, B.N. Reddy Nagar, Sagar Road, Hyderabad-500070</p>
         </StyledContent>
 
         <StyledFlexWrapper gridArea="copyright">

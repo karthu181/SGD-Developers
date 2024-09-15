@@ -4,8 +4,8 @@ import { fluidValues, respondTo } from "../../styles/helpers";
 
 const StyledWrapper = styled(motion.div)`
   display: grid;
-  place-items: center;
-  text-align: center;
+  place-items: left;
+  text-align: left;
   margin-top: ${fluidValues(280, 1200, 120, 160)};
 `;
 
@@ -28,6 +28,22 @@ const StyledImg = styled.img`
 
 const StyledLabel = styled.label`
   text-align: left;
+  font: var(--fs-text-large) var(--font);
 `;
 
-export { StyledWrapper, StyledParragraph, StyledSubText, StyledImg, StyledLabel };
+const StyledInput = styled.input`
+  width: 100%;
+  padding: 0.5rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--clr-dark-lighter);
+`
+
+const StyledTextArea = styled.textarea`
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--clr-dark-lighter);
+`
+
+export { StyledWrapper, StyledParragraph, StyledSubText, StyledImg, StyledLabel, StyledInput, StyledTextArea };

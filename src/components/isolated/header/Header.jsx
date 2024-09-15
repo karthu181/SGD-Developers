@@ -52,8 +52,8 @@ const Header = ({ light }) => {
           />
         </div>
 
-        <div className="pathname moveElementForward-10">
-          {/* <svg
+        {/* <div className="pathname moveElementForward-10">
+          <svg
             width="15"
             height="45"
             viewBox="0 0 15 48"
@@ -67,11 +67,11 @@ const Header = ({ light }) => {
               y2="0.648381"
               stroke={isTextWhite ? "var(--clr-light)" : "var(--clr-dark)"}
             />
-          </svg> */}
+          </svg>
           <p className={`${isTextWhite ? "text-white" : "text-dark"}`}>
             {renderPathName}
           </p>
-        </div>
+        </div> */}
 
         <a
           href="https://www.instagram.com/"
@@ -85,7 +85,7 @@ const Header = ({ light }) => {
         </a>
 
         <a
-          href="mailto: berkbeleli@gmail.com"
+          href="mailto: info@sgddevelopers.in"
           className={`moveElementForward-10 header-link mail-icon ${
             isTextWhite ? "text-white" : "text-dark"
           }`}

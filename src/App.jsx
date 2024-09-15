@@ -29,16 +29,16 @@ function App() {
       <GlobalStyles />
 
       <ScrollToTop>
-        <AnimatePresence exitBeforeEnter>
+        {/* <AnimatePresence exitBeforeEnter> */}
           <Routes location={location} key={location.pathname}>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/properties" element={<Properties />} />
-            <Route path="/properties/:id" element={<SingleProperty />} />
+            <Route path="/properties/:id" element={<SingleProperty />} /> */}
             <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<Contact />} />
           </Routes>
-        </AnimatePresence>
+        {/* </AnimatePresence> */}
       </ScrollToTop>
     </>
   );
