@@ -1,7 +1,7 @@
 {
   "homepage": "https://github.com/karthu181/SGD-Developers",
   "name": "sgd-developers-realestate",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
