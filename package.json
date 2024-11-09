@@ -1,5 +1,5 @@
 {
-  "homepage": "https://karthu181.github.io/SGD-Developers",
+  "homepage": "https://sgddevelopers.in/SGD-Developers",
   "name": "sgd-developers-realestate",
   "private": false,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
